@@ -8,6 +8,7 @@ This program takes user input and then prints out the factorial
 def main():
     userNumber = userInput()
     factorial(userNumber)
+
 '''
 factorial function accepts value as int type
 loops through the range from one to the value inclusively 
@@ -42,6 +43,5 @@ def testInput(value):
         return False
     except:
         return True
-
 
 main()
